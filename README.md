@@ -86,6 +86,11 @@ Heatmaps:
 <img width="566" alt="Screenshot 2024-10-21 at 18 10 04" src="https://github.com/user-attachments/assets/78fc7b3d-24ba-4464-a85e-fc22679d9093">
 <img width="542" alt="Screenshot 2024-10-21 at 18 10 47" src="https://github.com/user-attachments/assets/c8622de1-ef24-44d8-bf16-5582d176ff30">
 
+Observation Worth Noting:
+
+<img width="566" alt="Screenshot 2024-10-21 at 18 10 04 copy" src="https://github.com/user-attachments/assets/a156761e-ea4f-4703-8869-aba99c4b0f1e">
+
+
 Bar Graphs:
 
 <img width="704" alt="Screenshot 2024-10-21 at 12 10 01" src="https://github.com/user-attachments/assets/3d9864b2-de87-4949-af0a-c713c73a2411">
