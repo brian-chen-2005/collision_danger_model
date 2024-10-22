@@ -1,10 +1,10 @@
 # traffic_proj
 
 Model to predict danger of crash; How dangerous a crash would be given: 
-  1.location
-  2.road condition
-  3.lighting condition
-  4.weather
+#  1.location
+#  2.road condition
+#  3.lighting condition
+#  4.weather
 
 Pandas, numpy used to clean and process City of Seattle traffic collision data (CC0: Public Domain). 
 
