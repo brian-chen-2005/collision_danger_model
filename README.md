@@ -1,4 +1,4 @@
-# traffic_proj
+# Overview
 
 Model to predict danger of crash; How dangerous a crash would be given: 
 *  1.location
@@ -13,3 +13,12 @@ Sklearn used to train RandomForestRegressor with optimization from grid search h
 Further optimization attempts using polynomial features and onehot encoding. 
 
 Model saved as joblib.
+
+
+# Details
+
+Arbitrary danger value intepretation of severity_code 
+severity_code | 1 | 2 | 4 | 3
+--- | --- | --- | --- | ---
+semantic meaning | Property Damage | Injury | Serious Injury | Fatality
+assigned danger value | 1 | 6 | 8 | 10
