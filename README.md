@@ -14,6 +14,31 @@ Further optimization attempts using polynomial features and onehot encoding.
 
 Model saved as joblib.
 
+# To run
+**Both dataset and model are too large to upload:**
+
+Download dataset from City of Seattle: https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::sdot-collisions-all-years/about
+
+**Open model_building.py to change the directories at:**
+
+line 35: df = pd.read_csv('/_your/directory/folder/here_/SDOT_Collisions_All_Years.csv')
+
+line 196: joblib.dump(best_rf_regressor, '/_your/directory/folder/here_/random_forest_model.joblib')
+
+**Run model_building.py in virtual environment (Mac):**
+
+cd /Users/[user]/folder trafficProj directory
+
+source trafficProj/bin/activate
+
+python /Users/brian/trafficProj/model_building.py 
+
+**Run model_calling.py:**
+
+python /Users/brian/trafficProj/model_calling.py
+
+(change input values in model_calling as desired)
+
 # Dataset Interpretation
 
 Arbitrary danger value intepretation of severity_code
