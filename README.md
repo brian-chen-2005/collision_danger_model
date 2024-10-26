@@ -104,11 +104,19 @@ Scatterplots:
 
 # Model Performance and Optimization
 
-Residual Graphing:
-
 Best Hyperparameters (4 hours of tuning😭):
 
 <img width="1512" alt="Screenshot 2024-10-21 at 23 47 51" src="https://github.com/user-attachments/assets/384cfc18-375c-4721-bbfb-6a51863513a8">
+
+**Residual Graphing**
+
+Performance on training set:
+
+<img width="879" alt="Screenshot 2024-10-26 at 16 37 18" src="https://github.com/user-attachments/assets/fb2455b0-7dfc-4b6c-bb8c-989e7d0bb73b">
+
+<img width="289" alt="Screenshot 2024-10-26 at 16 48 50" src="https://github.com/user-attachments/assets/664a553e-7d95-4c92-8f59-56e10b7d35d6">
+
+Performance on test set:
 
 Hyperparamter RFR
 <img width="897" alt="hyperparameter tuning" src="https://github.com/user-attachments/assets/9fa05ec2-2c93-4710-add5-97cceed72375">
@@ -123,7 +131,12 @@ Model Comparisons:
 
 # Future Avenues for Better Modeling:
 **The distinct patterns in residual plots (bands and non-random distribution) are just a result of using integer danger values**
+* Larger data set would likely help in more conclusive modeling
 * Address overfitting - hyperparameter tuning likely introduced large amounts of overfitting
+* Decomposition (might help to break model up into two steps):
+  1. Model to calculate danger modifier for each location (intersection or road)
+  2. Model for danger prediction using road conditions then applying danger modifier of the specific location
 * Address multicollinearity - although random forest regression helps, strong multicollinearity still exists between values like road conditions and weather
 * Test Gradient Boosting or XGBoost - help with residual via iterative modeling
 * Test Weighted Least Squares - may help with heteroscedasticity
+* Transform or engineer coordinates (e.g., cluster areas)
