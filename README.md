@@ -87,6 +87,7 @@ Heatmaps:
 <img width="542" alt="Screenshot 2024-10-21 at 18 10 47" src="https://github.com/user-attachments/assets/c8622de1-ef24-44d8-bf16-5582d176ff30">
 
 Observation Worth Noting:
+under_infl is higher when streetlights are on in the dark and lower during daytime.
 
 <img width="566" alt="Screenshot 2024-10-21 at 18 10 04 copy" src="https://github.com/user-attachments/assets/a156761e-ea4f-4703-8869-aba99c4b0f1e">
 
