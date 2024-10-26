@@ -104,18 +104,26 @@ Scatterplots:
 
 # Model Performance and Optimization
 
-Model Comparisons:
-
-<img width="1063" alt="Screenshot 2024-10-22 at 11 54 00" src="https://github.com/user-attachments/assets/e2248b12-bf16-4600-aeaa-761cc8e673b9">
+Residual Graphing:
 
 Best Hyperparameters (4 hours of tuning😭):
 
 <img width="1512" alt="Screenshot 2024-10-21 at 23 47 51" src="https://github.com/user-attachments/assets/384cfc18-375c-4721-bbfb-6a51863513a8">
 
+Hyperparamter RFR
+<img width="897" alt="hyperparameter tuning" src="https://github.com/user-attachments/assets/9fa05ec2-2c93-4710-add5-97cceed72375">
+
+Polynomial Features RFR
+<img width="878" alt="polynomial" src="https://github.com/user-attachments/assets/90bfe717-273c-4b3a-b026-eec5d2e9b7e4">
+
+Model Comparisons:
+
+<img width="1510" alt="Screenshot 2024-10-26 at 14 57 59" src="https://github.com/user-attachments/assets/076c2f83-293c-4a0c-8c7c-da6bfa9b9b90">
+
 
 # Future Avenues for Better Modeling:
-**There is obvious distinct patterns in residual plots (bands and non-random distribution)**
+**The distinct patterns in residual plots (bands and non-random distribution) are just a result of using integer danger values**
 * Address overfitting - hyperparameter tuning likely introduced large amounts of overfitting
 * Address multicollinearity - although random forest regression helps, strong multicollinearity still exists between values like road conditions and weather
 * Test Gradient Boosting or XGBoost - help with residual via iterative modeling
-* Test Weighted Least Squares - bands in the residuals may indicate heteroscedasticity
+* Test Weighted Least Squares - may help with heteroscedasticity
