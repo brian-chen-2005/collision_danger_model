@@ -27,7 +27,7 @@ line 196: joblib.dump(best_rf_regressor, '/_your/directory/folder/here_/random_f
 
 **Run model_building.py in virtual environment (Mac):**
 
-cd /Users/[user]/folder trafficProj directory
+cd /Users/[user]/[folder trafficProj is contained]
 
 source trafficProj/bin/activate
 
@@ -102,13 +102,14 @@ Scatterplots:
 <img width="569" alt="Screenshot 2024-10-21 at 12 08 33" src="https://github.com/user-attachments/assets/3ddd5679-367c-4b06-a69c-5a01805308c0">
 
 # Model Performance and Optimization
-Best Hyperparameters (4 hours of tuning😭):
-
-<img width="1512" alt="Screenshot 2024-10-21 at 23 47 51" src="https://github.com/user-attachments/assets/384cfc18-375c-4721-bbfb-6a51863513a8">
 
 Model Comparisons:
 
 <img width="1063" alt="Screenshot 2024-10-22 at 11 54 00" src="https://github.com/user-attachments/assets/e2248b12-bf16-4600-aeaa-761cc8e673b9">
+
+Best Hyperparameters (4 hours of tuning😭):
+
+<img width="1512" alt="Screenshot 2024-10-21 at 23 47 51" src="https://github.com/user-attachments/assets/384cfc18-375c-4721-bbfb-6a51863513a8">
 
 
 # Future Avenues for Better Modeling:
