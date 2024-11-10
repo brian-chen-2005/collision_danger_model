@@ -114,9 +114,9 @@ Performance on training set:
 
 <img width="879" alt="Screenshot 2024-10-26 at 16 37 18" src="https://github.com/user-attachments/assets/fb2455b0-7dfc-4b6c-bb8c-989e7d0bb73b">
 
-<img width="289" alt="Screenshot 2024-10-26 at 16 48 50" src="https://github.com/user-attachments/assets/664a553e-7d95-4c92-8f59-56e10b7d35d6">
-
 Performance on test set:
+
+<img width="289" alt="Screenshot 2024-10-26 at 16 48 50" src="https://github.com/user-attachments/assets/664a553e-7d95-4c92-8f59-56e10b7d35d6">
 
 Hyperparamter RFR
 <img width="897" alt="hyperparameter tuning" src="https://github.com/user-attachments/assets/9fa05ec2-2c93-4710-add5-97cceed72375">
