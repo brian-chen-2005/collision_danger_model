@@ -1,10 +1,10 @@
 # Overview
 
 Model to predict danger of crash; How dangerous a crash would be given: 
-*  1.location
-*  2.road condition
-*  3.lighting condition
-*  4.weather
+*  1. location
+*  2. road condition
+*  3. lighting condition
+*  4. weather
 
 Pandas, numpy used to clean and process City of Seattle traffic collision data (CC0: Public Domain). 
 
@@ -25,17 +25,17 @@ line 35: df = pd.read_csv('/_your/directory/folder/here_/SDOT_Collisions_All_Yea
 
 line 196: joblib.dump(best_rf_regressor, '/_your/directory/folder/here_/random_forest_model.joblib')
 
-**Run model_building.py in virtual environment (Mac):**
+**Run model_building.py in virtual environment (Tested on Mac with Python3):**
 
-cd /Users/[user]/[folder trafficProj is contained]
+cd /Users/[user]/trafficProj
 
-source trafficProj/bin/activate
+source bin/activate
 
-python /Users/brian/trafficProj/model_building.py 
+python /Users/[user]/trafficProj/model_building.py 
 
 **Run model_calling.py:**
 
-python /Users/brian/trafficProj/model_calling.py
+python /Users/[user]/trafficProj/model_calling.py
 
 (change input values in model_calling as desired)
 
