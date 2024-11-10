@@ -104,7 +104,7 @@ Scatterplots:
 
 # Model Performance and Optimization
 
-Best Hyperparameters (4 hours of tuning😭):
+Best Hyperparameters:
 
 <img width="1512" alt="Screenshot 2024-10-21 at 23 47 51" src="https://github.com/user-attachments/assets/384cfc18-375c-4721-bbfb-6a51863513a8">
 
